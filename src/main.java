@@ -87,5 +87,17 @@ public class main {
         boolean semAutorizacao = !temAutorizacao ;
 
         System.out.println(semAutorizacao);
+
+        mostrarMensagem();
+        mostrarNome();
+    }
+
+    static void mostrarMensagem(){
+        System.out.println("estou aprendendo métodos em java!");
+    }
+
+    static void mostrarNome(String nome){
+
+        System.out.println("Olá" + nome );
     }
 }
