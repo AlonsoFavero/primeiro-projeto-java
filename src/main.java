@@ -16,5 +16,15 @@ public class main {
         System.out.println(numero1 - numero2);
         System.out.println(numero1 * numero2);
         System.out.println(numero1 / numero2);
+
+        double decimal1 = 10;
+        double decimal2 = 3;
+
+        System.out.println(decimal1 / decimal2);
+
+        double preco = 19.99;
+        int quantidade = 3;
+
+        System.out.println(preco * quantidade);
     }
 }
