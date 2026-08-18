@@ -3,7 +3,7 @@ public class main {
         System.out.println("meus primeiros passos para aprender java ");
 
         String nome = "Alonso";
-        int idade = 10;
+        int idade = 20;
 
         System.out.println(nome);
         System.out.println(idade);
@@ -53,5 +53,18 @@ public class main {
         }else{
             System.out.println("Adolescente");
         }
+
+        boolean idadeValida = idade >= 18 && idade <= 30;
+
+        System.out.println(idadeValida);
+
+        boolean temAutorizacao = true;
+        boolean podeEntrar = idade >= 18 || temAutorizacao == true;
+
+        System.out.println(podeEntrar);
+
+        boolean semAutorizacao = !temAutorizacao ;
+
+        System.out.println(semAutorizacao);
     }
 }
