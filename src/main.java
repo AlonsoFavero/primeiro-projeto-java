@@ -1,5 +1,26 @@
+import java.util.Scanner;
+
 public class main {
     public static void main(String[] args) {
+
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Digite seu nome:");
+
+        String nome2 = scanner.nextLine();
+
+        System.out.println(nome2);
+
+        System.out.println("Digite sua idade:");
+
+        int idadeUsuario = scanner.nextInt();
+
+        if(idadeUsuario >= 18){
+            System.out.println("maior de idade");
+        }else{
+            System.out.println("menor de idade");
+        }
+
         System.out.println("meus primeiros passos para aprender java ");
 
         String nome = "Alonso";
