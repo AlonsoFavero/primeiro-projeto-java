@@ -3,6 +3,10 @@ import java.util.Scanner;
 public class main {
     public static void main(String[] args) {
 
+        for (int i = 1; i <= 10; i++) {
+                System.out.println(i * 5);
+        }
+
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Digite seu nome:");
@@ -15,9 +19,9 @@ public class main {
 
         int idadeUsuario = scanner.nextInt();
 
-        if(idadeUsuario >= 18){
+        if (idadeUsuario >= 18) {
             System.out.println("maior de idade");
-        }else{
+        } else {
             System.out.println("menor de idade");
         }
 
@@ -61,17 +65,17 @@ public class main {
 
         System.out.println(maiorDeIdade);
 
-        if (maiorDeIdade){
+        if (maiorDeIdade) {
             System.out.println("maior de idade");
         } else {
             System.out.println("menor de idade");
         }
 
-        if(idade <= 12){
+        if (idade <= 12) {
             System.out.println("criança");
-        } else if(idade >= 18){
+        } else if (idade >= 18) {
             System.out.println("Adulto");
-        }else{
+        } else {
             System.out.println("Adolescente");
         }
 
@@ -84,12 +88,12 @@ public class main {
 
         System.out.println(podeEntrar);
 
-        boolean semAutorizacao = !temAutorizacao ;
+        boolean semAutorizacao = !temAutorizacao;
 
         System.out.println(semAutorizacao);
 
         mostrarMensagem();
-        mostrarNome();
+        mostrarNome("Alonso");
     }
 
     static void mostrarMensagem(){
