@@ -3,7 +3,7 @@ public class main {
         System.out.println("meus primeiros passos para aprender java ");
 
         String nome = "Alonso";
-        int idade = 16;
+        int idade = 10;
 
         System.out.println(nome);
         System.out.println(idade);
@@ -44,6 +44,14 @@ public class main {
             System.out.println("maior de idade");
         } else {
             System.out.println("menor de idade");
+        }
+
+        if(idade <= 12){
+            System.out.println("criança");
+        } else if(idade >= 18){
+            System.out.println("Adulto");
+        }else{
+            System.out.println("Adolescente");
         }
     }
 }
