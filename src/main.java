@@ -1,8 +1,25 @@
 import javax.swing.*;
 import java.util.Scanner;
+import java.util.ArrayList;
 
 public class main {
     public static void main(String[] args) {
+
+        ArrayList<String> nomes = new ArrayList<>();
+
+        nomes.add("Alonso");
+        nomes.add("Carlos");
+        nomes.add("João");
+
+        for(int i = 0; i < nomes.size(); i++){
+        System.out.println(nomes.get(i));
+        }
+
+        System.out.println(nomes.contains("Carlos"));
+        System.out.println(nomes.set(1, "Pedro"));
+        System.out.println(nomes);
+        System.out.println(nomes.remove(1));
+        System.out.println(nomes.size());
 
         for (int i = 1; i <= 10; i++) {
                 System.out.println(i * 5);
