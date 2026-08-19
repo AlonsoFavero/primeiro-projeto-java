@@ -15,6 +15,61 @@ public class main {
             contador = contador + 2;
         }
 
+        int[] numeros = {
+                10,
+                20,
+                30,
+                40,
+                50
+        };
+
+        int soma = 0;
+
+        for (int i = 0; i <= 4; i++) {
+            soma = soma + numeros[i];
+        }
+        System.out.println(soma);
+
+        int maiorValor = numeros[0];
+        int menorValor = numeros[0];
+
+        for (int i = 0; i <= 4; i++) {
+            if(numeros[i] > maiorValor){
+                maiorValor = numeros[i];
+            }
+        }
+
+        for (int i = 0; i <= 4; i++) {
+            if(numeros[i] < menorValor){
+                menorValor = numeros[i];
+            }
+        }
+
+        int somaMedia = 0;
+
+        for (int i = 0; i <= 4; i++) {
+            somaMedia = somaMedia + numeros[i];
+        }
+
+        double media = somaMedia / 5;
+
+        for (int i = 0; i < numeros.length; i++) {
+          if(numeros[i] > 25){
+              System.out.println(numeros[i]);
+          }
+        }
+
+        for (int i = 0; i < numeros.length; i++) {
+            if(numeros[i] < 30){
+                System.out.println(numeros[i]);
+            }
+        }
+
+        System.out.println(numeros.length);
+        System.out.println(media);
+        System.out.println(menorValor);
+        System.out.println(maiorValor);
+
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Digite seu nome:");
