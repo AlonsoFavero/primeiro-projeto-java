@@ -1,3 +1,4 @@
+import javax.swing.*;
 import java.util.Scanner;
 
 public class main {
@@ -5,6 +6,13 @@ public class main {
 
         for (int i = 1; i <= 10; i++) {
                 System.out.println(i * 5);
+        }
+
+        int contador = 2;
+
+        while(contador <= 10){
+            System.out.println(contador);
+            contador = contador + 2;
         }
 
         Scanner scanner = new Scanner(System.in);
