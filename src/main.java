@@ -1,11 +1,23 @@
 import javax.swing.*;
 import java.util.Scanner;
 import java.util.ArrayList;
+import java.util.HashMap;
 
 public class main {
     public static void main(String[] args) {
 
         ArrayList<String> nomes = new ArrayList<>();
+        HashMap<String, String> pessoa = new HashMap<>();
+
+        pessoa.put("idade", "20");
+        pessoa.put("idade", "21");
+        pessoa.put("nome", "Alonso");
+        pessoa.remove("idade");
+
+        System.out.println(pessoa.get("nome"));
+        System.out.println(pessoa.containsKey("nome"));
+        System.out.println(pessoa.containsValue("Alonso"));
+        System.out.println(pessoa);
 
         nomes.add("Alonso");
         nomes.add("Carlos");
