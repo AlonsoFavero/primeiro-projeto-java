@@ -17,7 +17,7 @@ public class TestePessoa {
 
         // Atribuindo valores aos atributos da pessoa
         pessoa1.setNome("Alonso");
-        pessoa1.setIdade(18);
+        pessoa1.setIdade(-18);
 
         //Chamando um método sem parâmetro
         pessoa1.apresentar();

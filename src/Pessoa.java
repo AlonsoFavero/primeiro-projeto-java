@@ -8,9 +8,18 @@ public class Pessoa {
        this.nome = nome;
    }
 
-   public void setIdade (int idade){
-       this.idade = idade;
-   }
+
+    public void setIdade (int idade){
+
+       if(idade >= 0){
+
+           this.idade = idade;
+
+    }else{
+           System.out.println("idade invalida");
+       }
+}
+
 
     // Método que apresenta os dados da própria pessoa
     void apresentar() {
