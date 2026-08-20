@@ -46,4 +46,11 @@ public class Pessoa {
         return idade;
 
     }
+
+    Pessoa(String nome, int idade){
+
+       this.nome = nome;
+       setIdade(idade);
+
+    }
 }

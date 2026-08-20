@@ -13,11 +13,7 @@ public class TestePessoa {
         produto1.mostrarInformacoes();
 
         // Criando um objeto a partir da classe Pessoa
-        Pessoa pessoa1 = new Pessoa();
-
-        // Atribuindo valores aos atributos da pessoa
-        pessoa1.setNome("Alonso");
-        pessoa1.setIdade(-18);
+        Pessoa pessoa1 = new Pessoa("Alonso", 18);
 
         //Chamando um método sem parâmetro
         pessoa1.apresentar();
@@ -31,20 +27,12 @@ public class TestePessoa {
         System.out.println(pessoa1.getIdade());
 
         // Criando outro objeto da mesma classe
-        Pessoa pessoa2 = new Pessoa();
-
-        // Cada objeto possui seus próprios valores
-        pessoa2.setNome("Carlos");
-        pessoa2.setIdade(25);
+        Pessoa pessoa2 = new Pessoa("Carlos", 25);
 
         pessoa2.apresentar();
 
         // Criando um terceiro objeto da classe pessoa
-        Pessoa pessoa3 = new Pessoa();
-
-        // Definindo os valores desse objeto
-        pessoa3.setNome("João");
-        pessoa3.setIdade(30);
+        Pessoa pessoa3 = new Pessoa("João", 30);
 
         pessoa3.apresentar();
 
