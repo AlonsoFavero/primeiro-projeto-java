@@ -16,14 +16,16 @@ public class TestePessoa {
         Pessoa pessoa1 = new Pessoa();
 
         // Atribuindo valores aos atributos da pessoa
-        pessoa1.nome = "Alonso";
-        pessoa1.idade = 18;
+        pessoa1.setNome("Alonso");
+        pessoa1.setIdade(18);
 
         //Chamando um método sem parâmetro
         pessoa1.apresentar();
 
         // Chamando um método e passando um valor como parâmetro
         pessoa1.apresentarPara("Carlos");
+
+        System.out.println(pessoa1.getNome());
 
         // Chamando um método que retorna um valor
         System.out.println(pessoa1.getIdade());
@@ -32,8 +34,8 @@ public class TestePessoa {
         Pessoa pessoa2 = new Pessoa();
 
         // Cada objeto possui seus próprios valores
-        pessoa2.nome = "Carlos";
-        pessoa2.idade = 25;
+        pessoa2.setNome("Carlos");
+        pessoa2.setIdade(25);
 
         pessoa2.apresentar();
 
@@ -41,8 +43,8 @@ public class TestePessoa {
         Pessoa pessoa3 = new Pessoa();
 
         // Definindo os valores desse objeto
-        pessoa3.nome = "João";
-        pessoa3.idade = 30;
+        pessoa3.setNome("João");
+        pessoa3.setIdade(30);
 
         pessoa3.apresentar();
 

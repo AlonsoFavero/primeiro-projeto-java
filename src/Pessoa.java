@@ -1,8 +1,16 @@
 public class Pessoa {
 
     // Atributos que representam as características da pessoa
-    String nome;
-    int idade;
+   private String nome;
+   private int idade;
+
+   public void setNome (String nome){
+       this.nome = nome;
+   }
+
+   public void setIdade (int idade){
+       this.idade = idade;
+   }
 
     // Método que apresenta os dados da própria pessoa
     void apresentar() {
@@ -17,8 +25,14 @@ public class Pessoa {
         System.out.println("Olá " + nomePessoa + ", eu sou " + nome + "!");
     }
 
+    public String getNome(){
+
+       return nome;
+
+    }
+
     // Método que retorna a idade da pessoa
-   int getIdade(){
+  public int getIdade(){
 
         return idade;
 
