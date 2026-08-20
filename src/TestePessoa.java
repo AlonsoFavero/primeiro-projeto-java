@@ -36,6 +36,9 @@ public class TestePessoa {
 
         pessoa3.apresentar();
 
+        Pessoa pessoa4 = new Pessoa("Lucas", -40);
+
+        pessoa4.apresentar();
     }
 
 }
