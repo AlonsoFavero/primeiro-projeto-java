@@ -59,6 +59,10 @@ public class TestePessoa {
             pessoa.apresentar();
         }
 
+        pessoas.remove(2);
+        System.out.println(pessoas.size());
+        pessoas.get(2).apresentar();
+
         // Criando um terceiro objeto da classe pessoa
         Pessoa pessoa3 = new Pessoa("João", 30);
 
