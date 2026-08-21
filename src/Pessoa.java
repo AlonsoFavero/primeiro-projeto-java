@@ -1,24 +1,24 @@
 public class Pessoa {
 
     // Atributos que representam as características da pessoa
-   private String nome;
-   private int idade;
+    private String nome;
+    private int idade;
 
-   public void setNome (String nome){
-       this.nome = nome;
-   }
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
 
 
-    public void setIdade (int idade){
+    public void setIdade(int idade) {
 
-       if(idade >= 0){
+        if (idade >= 0) {
 
-           this.idade = idade;
+            this.idade = idade;
 
-    }else{
-           System.out.println("idade invalida");
-       }
-}
+        } else {
+            System.out.println("idade invalida");
+        }
+    }
 
 
     // Método que apresenta os dados da própria pessoa
@@ -34,23 +34,41 @@ public class Pessoa {
         System.out.println("Olá " + nomePessoa + ", eu sou " + nome + "!");
     }
 
-    public String getNome(){
+    public String getNome() {
 
-       return nome;
+        return nome;
 
     }
 
     // Método que retorna a idade da pessoa
-  public int getIdade(){
+    public int getIdade() {
 
         return idade;
 
     }
 
-    Pessoa(String nome, int idade){
+    Pessoa(String nome, int idade) {
 
-       this.nome = nome;
-       setIdade(idade);
+        this.nome = nome;
+        setIdade(idade);
 
     }
+
+    void fazerAniversario() {
+        this.idade = idade + 1;
+    }
+
+    boolean ehMaiorDeIdade() {
+
+        if (idade >= 18){
+
+            return true;
+        }else{
+            return false;
+        }
+
+    }
+
 }
+
+

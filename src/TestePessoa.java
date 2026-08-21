@@ -13,10 +13,11 @@ public class TestePessoa {
         produto1.mostrarInformacoes();
 
         // Criando um objeto a partir da classe Pessoa
-        Pessoa pessoa1 = new Pessoa("Alonso", 18);
+        Pessoa pessoa1 = new Pessoa("Alonso", 15);
 
         //Chamando um método sem parâmetro
         pessoa1.apresentar();
+        pessoa1.fazerAniversario();
 
         // Chamando um método e passando um valor como parâmetro
         pessoa1.apresentarPara("Carlos");
@@ -25,6 +26,8 @@ public class TestePessoa {
 
         // Chamando um método que retorna um valor
         System.out.println(pessoa1.getIdade());
+
+        System.out.println(pessoa1.ehMaiorDeIdade());
 
         // Criando outro objeto da mesma classe
         Pessoa pessoa2 = new Pessoa("Carlos", 25);
