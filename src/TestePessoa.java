@@ -1,17 +1,27 @@
 import java.util.ArrayList;
+import java.util.HashSet;
 
 public class TestePessoa {
 
     public static void main(String[] args) {
 
         ArrayList<Pessoa> pessoas = new ArrayList<>();
+        HashSet<Pessoa> pessoasUnicas = new HashSet<>();
 
         // Criando Pessoa
-        Pessoa pessoa1 = new Pessoa("Alonso", 15);
+        Pessoa pessoa1 = new Pessoa("Alonso", 16);
+
+        pessoasUnicas.add(pessoa1);
+        pessoasUnicas.add(pessoa1);
+
+        System.out.println(pessoasUnicas.size());
 
         Pessoa pessoaTeste = new Pessoa("Alonso", 16);
         Pessoa pessoaTeste2 = new Pessoa("Carlos", 16);
 
+        pessoasUnicas.add(pessoaTeste);
+
+        System.out.println(pessoasUnicas.size());
 
         pessoa1.apresentar();
         pessoa1.fazerAniversario();
