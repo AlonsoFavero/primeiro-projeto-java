@@ -2,6 +2,10 @@ public class TestePessoa {
 
     public static void main(String[] args){
 
+        Aluno aluno1 = new Aluno("João", 20, "ADS");
+
+        aluno1.apresentar();
+
         Funcionario funcionario1 = new Funcionario("Felipe", 15, "Desenvolvedor");
         Pessoa pessoaFuncionario = new Funcionario("Felipe", 25, "engenheiro");
 

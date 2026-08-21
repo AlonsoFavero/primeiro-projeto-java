@@ -19,6 +19,7 @@ public class Funcionario extends Pessoa {
         return cargo;
     }
 
+    @Override
     void apresentar(){
         System.out.println(
                 "Olá, meu nome é " + getNome() +
