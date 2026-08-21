@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.HashSet;
+import java.util.HashMap;
 
 public class TestePessoa {
 
@@ -7,6 +8,14 @@ public class TestePessoa {
 
         ArrayList<Pessoa> pessoas = new ArrayList<>();
         HashSet<Pessoa> pessoasUnicas = new HashSet<>();
+        HashMap<String , String> telefones = new HashMap<>();
+
+        telefones.put("Alonso" , "11999999999");
+        telefones.put("Alonso" , "11888888888");
+        telefones.put("Carlos" , "11777777777");
+
+        System.out.println(telefones.get("Alonso"));
+        System.out.println(telefones.size());
 
         // Criando Pessoa
         Pessoa pessoa1 = new Pessoa("Alonso", 16);
