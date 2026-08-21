@@ -3,9 +3,11 @@ public class TestePessoa {
     public static void main(String[] args){
 
         Funcionario funcionario1 = new Funcionario("Felipe", 15, "Desenvolvedor");
+        Pessoa pessoaFuncionario = new Funcionario("Felipe", 25, "engenheiro");
 
         System.out.println(funcionario1.getCargo());
         funcionario1.apresentar();
+        pessoaFuncionario.apresentar();
 
         // Criando um objeto a partir da classe Produto
         Produto produto1 = new Produto();

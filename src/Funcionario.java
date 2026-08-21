@@ -19,4 +19,11 @@ public class Funcionario extends Pessoa {
         return cargo;
     }
 
+    void apresentar(){
+        System.out.println(
+                "Olá, meu nome é " + getNome() +
+                        ", tenho " + getIdade() +
+                        " anos e trabalho como " + getCargo());
+    }
+
 }
