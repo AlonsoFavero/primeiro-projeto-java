@@ -9,6 +9,10 @@ public class TestePessoa {
         // Criando Pessoa
         Pessoa pessoa1 = new Pessoa("Alonso", 15);
 
+        Pessoa pessoaTeste = new Pessoa("Alonso", 16);
+        Pessoa pessoaTeste2 = new Pessoa("Carlos", 16);
+
+
         pessoa1.apresentar();
         pessoa1.fazerAniversario();
         pessoa1.apresentarPara("Carlos");
@@ -80,8 +84,15 @@ public class TestePessoa {
 
         }
 
+        System.out.println(pessoas.contains(pessoa1));
+
+        System.out.println(pessoas.contains(pessoaTeste));
+        System.out.println(pessoas.contains(pessoaTeste2));
+
         // Removendo o Funcionario pela posição
         pessoas.remove(2);
+
+        System.out.println(pessoas.contains(funcionario1));
 
         System.out.println(pessoas.size());
 

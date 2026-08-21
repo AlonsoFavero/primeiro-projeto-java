@@ -60,10 +60,25 @@ public class Pessoa {
 
     boolean ehMaiorDeIdade() {
 
-        if (idade >= 18){
+        if (idade >= 18) {
 
             return true;
-        }else{
+        } else {
+            return false;
+        }
+
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+
+        if (obj instanceof Pessoa) {
+
+            Pessoa outraPessoa = (Pessoa) obj;
+
+            return getNome().equals(outraPessoa.getNome()) && getIdade() == outraPessoa.getIdade();
+
+        }else {
             return false;
         }
 
