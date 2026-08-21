@@ -59,6 +59,26 @@ public class TestePessoa {
             pessoa.apresentar();
         }
 
+        if(pessoas.get(3) instanceof  Aluno){
+
+            System.out.println("é um aluno");
+
+        }else{
+
+            System.out.println("não é um aluno");
+
+        }
+
+        if (pessoas.get(2) instanceof Funcionario) {
+
+            System.out.println("É um funcionário");
+
+        }else {
+
+            System.out.println("Não é funcionario");
+
+        }
+
         pessoas.remove(2);
         System.out.println(pessoas.size());
         pessoas.get(2).apresentar();
