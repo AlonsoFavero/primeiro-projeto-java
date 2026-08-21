@@ -1,3 +1,5 @@
+import java.util.Objects;
+
 public class Pessoa {
 
     // Atributos que representam as características da pessoa
@@ -81,6 +83,13 @@ public class Pessoa {
         }else {
             return false;
         }
+
+    }
+
+    @Override
+    public int hashCode()    {
+
+    return Objects.hash(getNome(), getIdade());
 
     }
 

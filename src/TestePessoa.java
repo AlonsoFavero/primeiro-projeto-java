@@ -84,6 +84,9 @@ public class TestePessoa {
 
         }
 
+        System.out.println(pessoa1.hashCode());
+        System.out.println(pessoaTeste.hashCode());
+
         System.out.println(pessoas.contains(pessoa1));
 
         System.out.println(pessoas.contains(pessoaTeste));
