@@ -13,6 +13,11 @@ public class TestePessoa {
         Funcionario funcionario1 = new Funcionario("Felipe", 15, "Desenvolvedor");
         Pessoa pessoaFuncionario = new Funcionario("Felipe", 25, "engenheiro");
 
+        if (pessoaFuncionario instanceof  Funcionario) {
+
+            System.out.println(((Funcionario) pessoaFuncionario).getCargo());
+        }
+
         System.out.println(funcionario1.getCargo());
         funcionario1.apresentar();
         pessoaFuncionario.apresentar();
