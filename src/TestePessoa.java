@@ -1,6 +1,10 @@
+import java.util.ArrayList;
+
 public class TestePessoa {
 
     public static void main(String[] args){
+
+        ArrayList<Pessoa> pessoas = new ArrayList<>();
 
         Aluno aluno1 = new Aluno("João", 20, "ADS");
 
@@ -40,10 +44,20 @@ public class TestePessoa {
 
         System.out.println(pessoa1.ehMaiorDeIdade());
 
+
         // Criando outro objeto da mesma classe
         Pessoa pessoa2 = new Pessoa("Carlos", 25);
 
         pessoa2.apresentar();
+
+        pessoas.add(pessoa1);
+        pessoas.add(pessoa2);
+        pessoas.add(funcionario1);
+        pessoas.add(aluno1);
+
+        for(Pessoa pessoa : pessoas){
+            pessoa.apresentar();
+        }
 
         // Criando um terceiro objeto da classe pessoa
         Pessoa pessoa3 = new Pessoa("João", 30);
