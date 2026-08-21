@@ -17,6 +17,9 @@ public class TestePessoa {
         System.out.println(telefones.get("Alonso"));
         System.out.println(telefones.size());
 
+        System.out.println(telefones.containsKey("Alonso"));
+        System.out.println(telefones.containsKey("João"));
+
         // Criando Pessoa
         Pessoa pessoa1 = new Pessoa("Alonso", 16);
 
