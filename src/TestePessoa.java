@@ -19,6 +19,12 @@ public class TestePessoa {
         Pessoa pessoaTeste = new Pessoa("Alonso", 16);
         Pessoa pessoaTeste2 = new Pessoa("Carlos", 16);
 
+        pessoasUnicas.add(pessoaTeste2);
+
+        for(Pessoa pessoa : pessoasUnicas){
+            pessoa.apresentar();
+        }
+
         pessoasUnicas.add(pessoaTeste);
 
         System.out.println(pessoasUnicas.size());
