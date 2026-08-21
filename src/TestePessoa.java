@@ -20,6 +20,9 @@ public class TestePessoa {
         System.out.println(telefones.containsKey("Alonso"));
         System.out.println(telefones.containsKey("João"));
 
+        System.out.println(telefones.containsValue("11888888888"));
+        System.out.println(telefones.containsValue("11111111111"));
+
         // Criando Pessoa
         Pessoa pessoa1 = new Pessoa("Alonso", 16);
 
