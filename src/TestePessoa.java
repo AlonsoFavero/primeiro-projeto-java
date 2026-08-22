@@ -10,6 +10,7 @@ public class TestePessoa {
         ArrayList<Pessoa> pessoas = new ArrayList<>();
         HashSet<Pessoa> pessoasUnicas = new HashSet<>();
         HashMap<String , String> telefones = new HashMap<>();
+        HashMap<Pessoa, String> telefonesPessoas = new HashMap<>();
 
         telefones.put("Alonso" , "11999999999");
         telefones.put("Alonso" , "11888888888");
@@ -29,6 +30,11 @@ public class TestePessoa {
 
         // Criando Pessoa
         Pessoa pessoa1 = new Pessoa("Alonso", 16);
+
+        telefonesPessoas.put(pessoa1,"11222222222");
+
+        System.out.println(telefonesPessoas.get(pessoa1));
+        System.out.println(telefonesPessoas.containsKey(pessoa1));
 
         pessoasUnicas.add(pessoa1);
         pessoasUnicas.add(pessoa1);
@@ -67,6 +73,11 @@ public class TestePessoa {
 
         // Criando outra Pessoa
         Pessoa pessoa2 = new Pessoa("Carlos", 25);
+
+        telefonesPessoas.put(pessoa2,"11333333333");
+
+        System.out.println(telefonesPessoas.get(pessoa2));
+        System.out.println(telefonesPessoas.containsKey(pessoa2));
 
         pessoa2.apresentar();
 
