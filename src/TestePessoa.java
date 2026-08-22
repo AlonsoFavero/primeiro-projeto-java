@@ -23,6 +23,9 @@ public class TestePessoa {
         System.out.println(telefones.containsValue("11888888888"));
         System.out.println(telefones.containsValue("11111111111"));
 
+        System.out.println(telefones.remove("Carlos"));
+        System.out.println(telefones.size());
+
         // Criando Pessoa
         Pessoa pessoa1 = new Pessoa("Alonso", 16);
 
