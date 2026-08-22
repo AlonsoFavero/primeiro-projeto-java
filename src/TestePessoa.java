@@ -1,6 +1,7 @@
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.HashMap;
+import java.util.Map;
 
 public class TestePessoa {
 
@@ -41,6 +42,15 @@ public class TestePessoa {
 
         for(Pessoa pessoa : pessoasUnicas){
             pessoa.apresentar();
+        }
+
+        telefones.put("Carlos" , "11777777777");
+
+        for (Map.Entry<String, String> entrada : telefones.entrySet()){
+
+            System.out.println(entrada.getKey());
+            System.out.println(entrada.getValue());
+
         }
 
         pessoasUnicas.add(pessoaTeste);
