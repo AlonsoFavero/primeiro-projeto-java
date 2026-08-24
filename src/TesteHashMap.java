@@ -68,5 +68,14 @@ public class TesteHashMap {
 
         System.out.println(telefonesPessoas.remove(pessoa1));
         System.out.println(telefonesPessoas.isEmpty());
+
+        telefonesPessoas.put(pessoa1, "11987654321");
+        telefonesPessoas.put(pessoa2, "11333333333");
+
+        System.out.println(telefonesPessoas.size());
+        telefonesPessoas.clear();
+        System.out.println(telefonesPessoas.size());
+
+        System.out.println(telefonesPessoas.isEmpty());
     }
 }
