@@ -6,6 +6,20 @@ public class TesteQueue {
     public static void main(String[] args) {
 
         Queue<String> fila = new LinkedList<>();
+        Queue<Integer> numeros = new LinkedList<>();
+
+        numeros.add(10);
+        numeros.add(20);
+        numeros.add(30);
+
+        System.out.println(numeros);
+
+        System.out.println(numeros.poll());
+
+        System.out.println(numeros);
+
+        System.out.println(numeros.peek());
+        System.out.println(numeros.isEmpty());
 
         // Adicionando pessoas
         fila.add("Alonso");
