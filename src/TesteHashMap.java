@@ -59,5 +59,8 @@ public class TesteHashMap {
         System.out.println(telefonesPessoas.get(pessoa1));
         System.out.println(telefonesPessoas.get(pessoa2));
 
+        System.out.println(telefonesPessoas.remove(pessoa2));
+        System.out.println(telefonesPessoas.containsKey(pessoa2));
+        System.out.println(telefonesPessoas.size());
     }
 }
