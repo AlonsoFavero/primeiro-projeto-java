@@ -36,7 +36,7 @@ public class Pessoa {
         System.out.println("Olá " + nomePessoa + ", eu sou " + nome + "!");
     }
 
-    public String getNome() {
+    public Object getNome() {
 
         return nome;
 
@@ -91,6 +91,12 @@ public class Pessoa {
 
     return Objects.hash(getNome(), getIdade());
 
+    }
+
+    @Override
+    public String toString(){
+
+        return "Pessoa{nome='" + getNome() + "', idade=" + getIdade() + "}";
     }
 
 }
