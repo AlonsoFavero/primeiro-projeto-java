@@ -8,9 +8,11 @@ public class TesteEquals {
         Pessoa pessoa1 = new Pessoa("Alonso", 16);
         Pessoa pessoa2 = new Pessoa("Alonso", 16);
         Pessoa pessoa3 = new Pessoa("Carlos", 16);
+        Pessoa pessoa4 = new Pessoa("Alonso", 17);
 
         System.out.println(pessoa1.equals(pessoa2));
         System.out.println(pessoa1.equals(pessoa3));
+        System.out.println(pessoa1.equals(pessoa4));
 
         System.out.println(pessoa1.hashCode());
         System.out.println(pessoa2.hashCode());
