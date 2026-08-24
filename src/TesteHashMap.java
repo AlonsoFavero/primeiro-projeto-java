@@ -65,5 +65,8 @@ public class TesteHashMap {
 
         telefonesPessoas.put(pessoa1, "11987654321");
         System.out.println(telefonesPessoas.get(pessoa1));
+
+        System.out.println(telefonesPessoas.remove(pessoa1));
+        System.out.println(telefonesPessoas.isEmpty());
     }
 }
