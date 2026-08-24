@@ -91,5 +91,18 @@ public class TesteHashMap {
             System.out.println(telefonesPessoas.keySet());
             System.out.println(telefonesPessoas.size());
         }
-    }
+
+        for (String telefone : telefonesPessoas.values()) {
+
+            System.out.println(telefone);
+
+        }
+
+        for (Map.Entry<Pessoa, String> entrada : telefonesPessoas.entrySet()) {
+
+            System.out.println(entrada.getKey());
+            System.out.println(entrada.getValue());
+
+        }
+        }
 }
