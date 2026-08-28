@@ -1,3 +1,5 @@
+package fundamentos;
+
 import java.util.Objects;
 
 public class Pessoa {
@@ -24,7 +26,7 @@ public class Pessoa {
 
 
     // Método que apresenta os dados da própria pessoa
-    void apresentar() {
+   public void apresentar() {
 
         System.out.println("Olá, menu nome é " + nome + " e eu tenho " + idade + " anos.");
         System.out.println("Prazer em conhecer você!");
@@ -49,7 +51,7 @@ public class Pessoa {
 
     }
 
-    Pessoa(String nome, int idade) {
+   public Pessoa(String nome, int idade) {
 
         this.nome = nome;
         setIdade(idade);
@@ -96,7 +98,7 @@ public class Pessoa {
     @Override
     public String toString(){
 
-        return "Pessoa{nome='" + getNome() + "', idade=" + getIdade() + "}";
+        return "fundamentos.Pessoa{nome='" + getNome() + "', idade=" + getIdade() + "}";
     }
 
 }

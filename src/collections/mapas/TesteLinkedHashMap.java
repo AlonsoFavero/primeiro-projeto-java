@@ -1,3 +1,5 @@
+package collections.mapas;
+
 import java.util.LinkedHashMap;
 
 public class TesteLinkedHashMap {

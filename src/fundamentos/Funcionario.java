@@ -1,8 +1,10 @@
+package fundamentos;
+
 public class Funcionario extends Pessoa {
 
     private String cargo;
 
-    Funcionario(String nome, int idade, String cargo) {
+   public Funcionario(String nome, int idade, String cargo) {
 
         super(nome, idade);
         setCargo(cargo);
@@ -20,7 +22,7 @@ public class Funcionario extends Pessoa {
     }
 
     @Override
-    void apresentar(){
+   public void apresentar(){
         System.out.println(
                 "Olá, meu nome é " + getNome() +
                         ", tenho " + getIdade() +

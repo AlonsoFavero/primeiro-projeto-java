@@ -1,3 +1,5 @@
+package collections.filas;
+
 import java.util.PriorityQueue;
 
 public class TestePriorityQueue {

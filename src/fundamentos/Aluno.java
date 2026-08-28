@@ -1,8 +1,10 @@
+package fundamentos;
+
 public class Aluno extends Pessoa {
 
     private String curso;
 
-    Aluno(String nome, int idade, String curso) {
+   public Aluno(String nome, int idade, String curso) {
 
         super(nome, idade);
         setCurso(curso);
@@ -20,7 +22,7 @@ public class Aluno extends Pessoa {
     }
 
     @Override
-    void apresentar(){
+   public void apresentar(){
         System.out.println(
                 "Olá, meu nome é " + getNome() +
                         ", tenho " + getIdade() +

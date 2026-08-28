@@ -1,3 +1,5 @@
+package fundamentos;
+
 public class Produto {
 
     // Atributos que representam as caracteristícas do produto

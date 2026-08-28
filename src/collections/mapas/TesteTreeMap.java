@@ -1,3 +1,5 @@
+package collections.mapas;
+
 import java.util.TreeMap;
 
 public class TesteTreeMap {

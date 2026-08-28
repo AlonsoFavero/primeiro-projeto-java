@@ -1,3 +1,5 @@
+package exercícios;
+
 public class ExerciciosWhile {
 
     public static void main(String[] args) {

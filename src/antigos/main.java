@@ -1,4 +1,5 @@
-import javax.swing.*;
+package antigos;
+
 import java.util.Scanner;
 import java.util.ArrayList;
 import java.util.HashMap;

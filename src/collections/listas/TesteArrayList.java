@@ -1,4 +1,8 @@
+package collections.listas;
 import java.util.ArrayList;
+import fundamentos.Pessoa;
+import fundamentos.Funcionario;
+import fundamentos.Aluno;
 
 public class TesteArrayList {
 
@@ -10,10 +14,10 @@ public class TesteArrayList {
         Pessoa pessoa1 = new Pessoa("Alonso", 16);
         Pessoa pessoa2 = new Pessoa("Carlos", 25);
 
-        // Criando Funcionario
+        // Criando fundamentos.Funcionario
         Funcionario funcionario1 = new Funcionario("Felipe", 15, "Desenvolvedor");
 
-        // Criando Aluno
+        // Criando fundamentos.Aluno
         Aluno aluno1 = new Aluno("João", 20, "ADS");
 
         // Adicionando objetos à lista
@@ -29,7 +33,7 @@ public class TesteArrayList {
 
         }
 
-        // Verificando se o objeto é um Aluno
+        // Verificando se o objeto é um fundamentos.Aluno
         if (pessoas.get(3) instanceof Aluno) {
 
             System.out.println("É um aluno");
@@ -40,7 +44,7 @@ public class TesteArrayList {
 
         }
 
-        // Verificando se o objeto é um Funcionario
+        // Verificando se o objeto é um fundamentos.Funcionario
         if (pessoas.get(2) instanceof Funcionario) {
 
             System.out.println("É um funcionário");
@@ -58,7 +62,7 @@ public class TesteArrayList {
 
         System.out.println(pessoas.contains(pessoaTeste));
 
-        // Removendo o Funcionario pela posição
+        // Removendo o fundamentos.Funcionario pela posição
         pessoas.remove(2);
 
         System.out.println(pessoas.contains(funcionario1));
