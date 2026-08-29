@@ -2,7 +2,7 @@ package fundamentos;
 
 import java.util.Objects;
 
-public class Pessoa {
+public class Pessoa implements Comparable<Pessoa> {
 
     // Atributos que representam as características da pessoa
     private String nome;
@@ -99,6 +99,11 @@ public class Pessoa {
     public String toString(){
 
         return "fundamentos.Pessoa{nome='" + getNome() + "', idade=" + getIdade() + "}";
+    }
+
+    @Override
+    public int compareTo(Pessoa outraPessoa) {
+        return this.idade - outraPessoa.idade;
     }
 
 }
