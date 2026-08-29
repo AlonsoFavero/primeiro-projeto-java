@@ -38,7 +38,7 @@ public class Pessoa implements Comparable<Pessoa> {
         System.out.println("Olá " + nomePessoa + ", eu sou " + nome + "!");
     }
 
-    public Object getNome() {
+    public String getNome() {
 
         return nome;
 
