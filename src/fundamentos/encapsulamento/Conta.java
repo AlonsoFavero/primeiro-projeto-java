@@ -22,6 +22,10 @@ public class Conta {
 
     public void setSaldo(double saldo) {
 
-        this.saldo = saldo;
+        if(saldo < 0){
+            System.out.println("O saldo não pode ser negativo");
+        }else{
+            this.saldo = saldo;
+        }
     }
 }
