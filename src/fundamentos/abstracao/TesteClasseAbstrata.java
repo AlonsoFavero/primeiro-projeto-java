@@ -1,4 +1,4 @@
-package fundamentos;
+package fundamentos.abstracao;
 
 public class TesteClasseAbstrata{
     public static void main(String[] args){

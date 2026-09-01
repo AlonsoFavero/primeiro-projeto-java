@@ -1,6 +1,6 @@
 package collections.ordenacao;
 
-import fundamentos.Pessoa;
+import fundamentos.classes.Pessoa;
 
 import java.util.ArrayList;
 import java.util.Collections;

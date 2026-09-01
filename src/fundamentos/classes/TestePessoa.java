@@ -1,10 +1,10 @@
-package fundamentos;
+package fundamentos.classes;
 
 public class TestePessoa {
 
     public static void main(String[] args) {
 
-        // Criando fundamentos.Pessoa
+        // Criando fundamentos.classes.Pessoa
         Pessoa pessoa1 = new Pessoa("Alonso", 16);
 
         pessoa1.apresentar();
@@ -15,23 +15,23 @@ public class TestePessoa {
         System.out.println(pessoa1.getIdade());
         System.out.println(pessoa1.ehMaiorDeIdade());
 
-        // Criando outra fundamentos.Pessoa
+        // Criando outra fundamentos.classes.Pessoa
         Pessoa pessoa2 = new Pessoa("Carlos", 25);
 
         pessoa2.apresentar();
 
-        // Criando fundamentos.Aluno
+        // Criando fundamentos.classes.Aluno
         Aluno aluno1 = new Aluno("João", 20, "ADS");
 
         aluno1.apresentar();
 
-        // Criando fundamentos.Funcionario
+        // Criando fundamentos.classes.Funcionario
         Funcionario funcionario1 = new Funcionario("Felipe", 15, "Desenvolvedor");
 
         System.out.println(funcionario1.getCargo());
         funcionario1.apresentar();
 
-        // Criando fundamentos.Funcionario através de uma referência fundamentos.Pessoa
+        // Criando fundamentos.classes.Funcionario através de uma referência fundamentos.classes.Pessoa
         Pessoa pessoaFuncionario = new Funcionario("Felipe", 25, "engenheiro");
 
         pessoaFuncionario.apresentar();

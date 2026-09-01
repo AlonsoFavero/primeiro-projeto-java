@@ -1,4 +1,4 @@
-package fundamentos;
+package fundamentos.optional;
 
 import java.util.Optional;
 

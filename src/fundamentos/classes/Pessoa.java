@@ -1,4 +1,4 @@
-package fundamentos;
+package fundamentos.classes;
 
 import java.util.Objects;
 
@@ -98,7 +98,7 @@ public class Pessoa implements Comparable<Pessoa> {
     @Override
     public String toString(){
 
-        return "fundamentos.Pessoa{nome='" + getNome() + "', idade=" + getIdade() + "}";
+        return "fundamentos.classes.Pessoa{nome='" + getNome() + "', idade=" + getIdade() + "}";
     }
 
     @Override

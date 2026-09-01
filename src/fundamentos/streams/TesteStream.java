@@ -1,4 +1,4 @@
-package fundamentos;
+package fundamentos.streams;
 
 import java.util.ArrayList;
 import java.util.stream.Stream;

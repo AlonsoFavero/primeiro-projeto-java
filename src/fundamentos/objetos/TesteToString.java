@@ -1,4 +1,6 @@
-package fundamentos;
+package fundamentos.objetos;
+
+import fundamentos.classes.Pessoa;
 
 import java.util.ArrayList;
 import java.util.HashSet;

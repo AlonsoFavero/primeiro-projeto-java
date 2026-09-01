@@ -1,4 +1,4 @@
-package fundamentos;
+package fundamentos.excecoes;
 
 public class TesteThrow {
     public static void main(String[] args){

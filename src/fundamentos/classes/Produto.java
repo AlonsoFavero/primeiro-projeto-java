@@ -1,4 +1,4 @@
-package fundamentos;
+package fundamentos.classes;
 
 public class Produto {
 

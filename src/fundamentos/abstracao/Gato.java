@@ -1,4 +1,4 @@
-package fundamentos;
+package fundamentos.abstracao;
 
 public class Gato extends Animal {
 

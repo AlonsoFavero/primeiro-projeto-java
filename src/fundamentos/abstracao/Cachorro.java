@@ -1,6 +1,6 @@
-package fundamentos;
+package fundamentos.abstracao;
 
-public  class Cachorro extends Animal{
+public  class Cachorro extends Animal {
 
    Cachorro(String nome){
        super(nome);

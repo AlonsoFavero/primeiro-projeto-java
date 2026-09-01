@@ -1,4 +1,4 @@
-package fundamentos;
+package fundamentos.arrays;
 
 public class Arrays {
 

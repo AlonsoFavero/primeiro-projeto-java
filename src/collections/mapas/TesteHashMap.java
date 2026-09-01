@@ -1,6 +1,6 @@
 package collections.mapas;
 
-import fundamentos.Pessoa;
+import fundamentos.classes.Pessoa;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -39,14 +39,14 @@ public class TesteHashMap {
 
         }
 
-        // HashMap usando fundamentos.Pessoa como chave
+        // HashMap usando fundamentos.classes.Pessoa como chave
         HashMap<Pessoa, String> telefonesPessoas = new HashMap<>();
 
         Pessoa pessoa1 = new Pessoa("Alonso", 16);
         Pessoa pessoa2 = new Pessoa("Carlos", 25);
         Pessoa novaPessoa = new Pessoa("Alonso", 16);
 
-        // Adicionando fundamentos.Pessoa + telefone
+        // Adicionando fundamentos.classes.Pessoa + telefone
         telefonesPessoas.put(pessoa1, "11222222222");
         telefonesPessoas.put(pessoa2, "11333333333");
 

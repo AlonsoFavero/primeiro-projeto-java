@@ -1,6 +1,6 @@
 package collections.conjuntos;
 
-import fundamentos.Pessoa;
+import fundamentos.classes.Pessoa;
 
 import java.util.HashSet;
 
@@ -10,10 +10,10 @@ public class TesteHashSet {
 
         HashSet<Pessoa> pessoasUnicas = new HashSet<>();
 
-        // Criando fundamentos.Pessoa
+        // Criando fundamentos.classes.Pessoa
         Pessoa pessoa1 = new Pessoa("Alonso", 16);
 
-        // Adicionando a mesma fundamentos.Pessoa duas vezes
+        // Adicionando a mesma fundamentos.classes.Pessoa duas vezes
         pessoasUnicas.add(pessoa1);
         pessoasUnicas.add(pessoa1);
 
@@ -32,7 +32,7 @@ public class TesteHashSet {
 
         }
 
-        // Adicionando uma fundamentos.Pessoa com os mesmos dados
+        // Adicionando uma fundamentos.classes.Pessoa com os mesmos dados
         pessoasUnicas.add(pessoaTeste);
 
         System.out.println(pessoasUnicas.size());
